@@ -1,7 +1,7 @@
 import base64
 import pprint as pp
 
-from flask import current_app, escape
+from flask import current_app, escape  
 
 def sample_http(request):
     """HTTP Cloud Function.
